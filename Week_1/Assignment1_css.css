@@ -1,0 +1,47 @@
+.heading{
+    color: bisque;
+    text-align: center;
+}
+.progSkills, .heading {
+    overflow: hidden;
+    text-align: center;
+    color: rgb(255, 212, 212);
+  }
+  
+  .progSkills:before,
+  .progSkills:after,
+  .heading::before,
+  .heading::after {
+    background-color: rgb(253, 253, 253);
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .heading::before,
+  .progSkills:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .progSkills:after,
+  .heading:after{
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .expLvl,
+  .progLang,
+  .container{
+    color: beige;
+    font-size: 22px;
+  }
+
+  .heading-description{
+    color: beige;
+    font-size: 27px;
+    text-align: center;
+  }
